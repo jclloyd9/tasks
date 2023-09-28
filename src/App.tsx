@@ -11,6 +11,7 @@ function App(): JSX.Element {
         <div className="App">
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript
+                <h6>James Lloyd</h6>
             </header>
             <hr></hr>
             <Counter></Counter>
