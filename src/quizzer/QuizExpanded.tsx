@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-import { Question } from "../interfaces/question";
-import { Quiz } from "../interfaces/quiz";
+import { Question } from "./question";
+import { Quiz } from "./quiz";
 
 import "./QuizExpanded.css";
 import { QuizQuestion } from "./QuizQuestion";
