@@ -15,6 +15,7 @@ import { GiveAttempts } from "./form-components/GiveAttempts";
 import { EditMode } from "./form-components/EditMode";
 import { ChangeColor } from "./form-components/ChangeColor";
 import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
+
 function App(): JSX.Element {
     return (
         <div className="App">
