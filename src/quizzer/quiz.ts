@@ -1,4 +1,4 @@
-import { Question } from "../interfaces/question";
+import { Question } from "./question";
 
 export interface Quiz {
     id: number;
