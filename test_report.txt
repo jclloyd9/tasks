@@ -47,35 +47,12 @@ PASS src/components/RevealAnswer.test.tsx
 PASS src/bad-components/ColoredBox.test.tsx
 PASS src/bad-components/ShoveBox.test.tsx
 PASS src/App.test.tsx
-  ● Console
-
-    console.error
-      Warning: Received NaN for the `value` attribute. If this is expected, cast the value to a string.
-          at input
-          at /home/runner/work/tasks/tasks/node_modules/react-bootstrap/cjs/FormControl.js:27:3
-          at div
-          at /home/runner/work/tasks/tasks/node_modules/react-bootstrap/cjs/FormGroup.js:19:3
-          at div
-          at div
-          at GiveAttempts (/home/runner/work/tasks/tasks/src/form-components/GiveAttempts.tsx:5:45)
-          at div
-          at App
-
-      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
-      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
-      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:3492:7)
-      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:3559:21)
-      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:3583:3)
-      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:8765:5)
-      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:9041:5)
-      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
-
 -----------------------------|---------|----------|---------|---------|--------------------------------------------
 File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                          
 -----------------------------|---------|----------|---------|---------|--------------------------------------------
-All files                    |   92.87 |    93.97 |   91.79 |   92.63 |                                            
- src                         |   98.14 |    98.61 |     100 |   98.08 |                                            
-  App.tsx                    |     100 |      100 |     100 |     100 |                                            
+All files                    |   92.65 |    92.94 |   91.32 |    92.4 |                                            
+ src                         |   97.56 |    96.05 |   98.63 |   97.48 |                                            
+  App.tsx                    |   66.66 |       50 |      50 |   66.66 | 15                                         
   arrays.ts                  |   98.21 |      100 |     100 |   98.11 | 25                                         
   functions.ts               |   94.44 |      100 |     100 |   94.44 | 59                                         
   nested.ts                  |     100 |      100 |     100 |     100 |                                            
@@ -118,5 +95,5 @@ All files                    |   92.87 |    93.97 |   91.79 |   92.63 |
 Test Suites: 21 passed, 21 total
 Tests:       147 passed, 147 total
 Snapshots:   0 total
-Time:        14.931 s
+Time:        20.681 s
 Ran all test suites.
