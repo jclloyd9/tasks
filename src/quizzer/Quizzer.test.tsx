@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import { Quiz } from "../interfaces/quiz";
-import { Question, QuestionType } from "../interfaces/question";
+import { Quiz } from "./quiz";
+import { Question, QuestionType } from "./question";
 import { Quizzer } from "./Quizzer";
 import userEvent from "@testing-library/user-event";
 import sample from "../data/quizzes.json";
@@ -168,8 +168,6 @@ describe("Quizzer Tests", () => {
 
         expect(screen.queryByText("Simple_Questions")).not.toBeInTheDocument();
     });
-
-    test("Users can delete an existing quiz question", () => {});
 
     test("Users can add a new quiz question", () => {
         const text = screen.getByText("Simple_Questions");
