@@ -1,6 +1,6 @@
 import React from "react";
-import { Question } from "../interfaces/question";
 import { Form, Button } from "react-bootstrap";
+import { Question } from "./question";
 
 import "./QuizQuestion.css";
 type ChangeEvent = React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>;
